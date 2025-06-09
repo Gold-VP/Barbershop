@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Запись к парикмахеру</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Записаться</h1>
+    <form action="/book" method="post">
+        <label>Имя:</label>
+        <input type="text" name="name" required>
+        
+        <label>Дата:</label>
+        <input type="date" name="date" required>
+        
+        <label>Время:</label>
+        <input type="time" name="time" required>
+        
+        <button type="submit">Записаться</button>
+    </form>
+</body>
+</html>
